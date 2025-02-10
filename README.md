@@ -1,4 +1,4 @@
-🏠 #Gestion d'Agence Immobilière - Application Desktop
+#🏠 Gestion d'Agence Immobilière - Application Desktop
 
 📝 Description
 
