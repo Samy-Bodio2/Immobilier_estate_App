@@ -1,79 +1,81 @@
-#🏠 Gestion d'Agence Immobilière - Application Desktop
+# 🏠 Gestion d'Agence Immobilière - Application Desktop
 
-📝 Description
+## 📝 Description
 
-Cette application est une solution complète de gestion pour une agence immobilière. Conçue en JavaFX pour l'interface utilisateur et Spring Boot pour le backend, elle permet de gérer efficacement les biens immobiliers, les clients, les contrats de bail et bien plus encore.
+Cette application est une solution complète de gestion pour une agence immobilière. Conçue en **JavaFX** pour l'interface utilisateur et **Spring Boot** pour le backend, elle permet de gérer efficacement :
 
-✨ Fonctionnalités principales
+✔️ Les biens immobiliers                                                                  
+✔️ Les clients                                                                                
+✔️ Les contrats de bail                                                                  
+✔️ La facturation et bien plus encore !
 
-🏢 Gestion des biens immobiliers (ajout, modification, suppression, recherche)
+## ✨ Fonctionnalités principales
 
-👥 Gestion des clients (locataires et propriétaires)
+🏢 **Gestion des biens immobiliers** (ajout, modification, suppression, recherche)
 
-📄 Gestion des contrats de bail (génération et impression de contrats)
+👥 **Gestion des clients** (locataires et propriétaires)
 
-💰 Système de facturation et paiements
+📄 **Gestion des contrats de bail** (génération et impression de contrats)
 
-📊 Tableau de bord avec statistiques
+💰 **Système de facturation et paiements**
 
-🔐 Gestion des utilisateurs et des rôles
+📊 **Tableau de bord avec statistiques**
 
-🛠 Technologies utilisées
+🔐 **Gestion des utilisateurs et des rôles**
 
-🎨 Frontend : JavaFX
+## 🛠 Technologies utilisées
 
-🚀 Backend : Spring Boot
+🎨 **Frontend** : JavaFX
 
-💾 Base de données : MySQL
+🚀 **Backend** : Spring Boot
 
-☕ JDK requis : 21
+💾 **Base de données** : MySQL
 
-📥 Installation et exécution
+☕ **JDK requis** : 21
 
-🔧 Prérequis
+## 📥 Installation et exécution
 
-☕ Java Development Kit (JDK) 21
+### 🔧 Prérequis
 
-🗄 MySQL Server
+☕ **Java Development Kit (JDK) 21**
 
-🏗 Maven
+🗄 **MySQL Server**
 
-⚙️ Configuration
+🏗 **Maven**
 
-📂 Base de données :
+## ⚙️ Configuration
 
-Créer une base de données MySQL nommée gestion_agence.
+📂 **Base de données** :
 
-Modifier le fichier application.properties avec vos paramètres de connexion MySQL.
+- Créer une base de données MySQL nommée gestion_agence.
 
-🖥 Backend :
+- Modifier le fichier application.properties avec vos paramètres de connexion MySQL.
 
-Ouvrir un terminal et naviguer dans le dossier du projet backend.
+🖥 **Backend** :
 
-Exécuter la commande :
+- Ouvrir un terminal et naviguer dans le dossier du projet backend.
 
-mvn spring-boot:run
+- Exécuter la commande :
+
+`mvn spring-boot:run`
 
 💻 Frontend :
 
-Importer le projet JavaFX dans votre IDE préféré.
+- Importer le projet JavaFX dans votre IDE préféré.
 
-Exécuter l'application JavaFX.
+- Exécuter l'application JavaFX.
 
-🎯 Utilisation
+## 🎯 Utilisation
 
-L'interface permet aux administrateurs de gérer les propriétés, les locataires et les contrats.
-
-Un système de recherche et de filtrage facilite la gestion des données.
-
-La génération automatique des contrats de bail permet un gain de temps considérable.
+✅ L'interface permet aux administrateurs de gérer les propriétés, locataires et contrats.                                
+✅ Un système de recherche et de filtrage facilite la gestion des données.                               
+✅ Génération automatique des contrats de bail, pour un gain de temps considérable.
 
 👤 Auteur
 
-Nom : [Samy Bodio]
+👨‍💻 **Nom** : Samy Bodio
 
-📧 Email : [samybodio8@gmail.com]
+📧 **Email** : samybodio8@gmail.com
 
-📜 Licence
-
+📜 Licence                                                                                                          
 Ce projet est sous licence [SIGL].
