@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.immobilier.Controller.AuthController">
+   <children>
+      <ImageView fitHeight="426.0" fitWidth="645.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="241.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="83.0">
+         <image>
+            <Image url="@R/Group%2011%201.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="210.0" layoutY="526.0" text="Turn your ideas into reality.">
+         <font>
+            <Font name="MT Extra" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="560.0" text="Start for free and get attractive offers from" />
+      <Label layoutX="290.0" layoutY="577.0" text="community" />
+      <Label layoutX="761.0" layoutY="356.0" text="Password" />
+      <Label layoutX="761.0" layoutY="301.0" text="Username" />
+      <Label layoutX="761.0" layoutY="262.0" text="See what is going on with your business" />
+      <Label layoutX="761.0" layoutY="217.0" prefHeight="40.0" prefWidth="314.0" text="Login to your Account">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passwordField" layoutX="761.0" layoutY="379.0" prefHeight="25.0" prefWidth="314.0" />
+      <TextField fx:id="usernameField" layoutX="761.0" layoutY="318.0" prefHeight="25.0" prefWidth="314.0" />
+      <Button fx:id="loginButton" layoutX="762.0" layoutY="448.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="25.0" prefWidth="314.0" style="-fx-background-color: #52A1FF;" text="Login" textFill="WHITE" />
+      <ImageView fitHeight="170.0" fitWidth="170.0" layoutX="1055.0" layoutY="581.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@R/Vector.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

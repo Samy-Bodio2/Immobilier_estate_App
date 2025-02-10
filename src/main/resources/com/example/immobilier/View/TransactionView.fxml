@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #F7FAFC;" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.immobilier.Controller.TransactionController">
+    <children>
+        <AnchorPane prefHeight="750.0" prefWidth="261.0" />
+        <AnchorPane prefHeight="750.0" prefWidth="228.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <Label layoutX="97.0" layoutY="31.0" prefHeight="19.0" prefWidth="72.0" text="Immo App">
+                    <font>
+                        <Font name="Inter Regular" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="27.0" layoutY="111.0" prefHeight="34.0" prefWidth="120.0" text="GENERAL">
+                    <font>
+                        <Font name="Inter Regular" size="18.0" />
+                    </font>
+                </Label>
+                <Pane fx:id="paneClient" layoutX="27.0" layoutY="212.0" onMouseClicked="#handleClient">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="47.0" stroke="#f9e3ed" strokeType="INSIDE" strokeWidth="0.5" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="17.0" text="Clients">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Customer.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane fx:id="paneAgent" layoutX="22.0" layoutY="281.0" onMouseClicked="#handleAgent">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="47.0" stroke="#f9e3ed" strokeType="INSIDE" strokeWidth="0.5" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="17.0" text="Agents">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Real%20Estate%20Agent.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane fx:id="paneBiens" layoutX="22.0" layoutY="351.0" onMouseClicked="#handleBiens">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="47.0" stroke="#f9e3ed" strokeType="INSIDE" strokeWidth="0.5" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="16.0" text="Bien Immo">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Home.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane fx:id="paneContrat" layoutX="22.0" layoutY="415.0" onMouseClicked="#handleContrat">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="47.0" stroke="#f9e3ed" strokeType="INSIDE" strokeWidth="0.5" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="17.0" text="Contrats">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Signing%20A%20Document.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane fx:id="paneProp" layoutX="22.0" layoutY="480.0" onMouseClicked="#handleProp">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="47.0" stroke="#f9e3ed" strokeType="INSIDE" strokeWidth="0.5" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="18.0" text="Proprietaire">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Landlord.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane fx:id="paneTransaction" layoutX="22.0" layoutY="548.0" onMouseClicked="#handleTransaction">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f9e3ed" height="47.0" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="16.0" text="Transaction">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Transaction.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane fx:id="paneDetail" layoutX="22.0" layoutY="615.0">
+                    <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="47.0" stroke="#f9e3ed" strokeType="INSIDE" strokeWidth="0.5" width="184.0" />
+                        <Circle fill="#ff63f4" layoutX="23.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Label layoutX="64.0" layoutY="16.0" text="Immo details">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../R/Transaction.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </children></AnchorPane>
+        <Label layoutX="324.0" layoutY="93.0" text="Transaction">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Label>
+        <TableView fx:id="tableView" layoutX="319.0" layoutY="210.0" prefHeight="445.0" prefWidth="786.0" style="-fx-background-color: #FFFFFF;">
+            <columns>
+                <TableColumn fx:id="columnId" prefWidth="196.5" style="-fx-background-color: #f9e3ed;" text="Transaction ID" visible="false" />
+                <TableColumn fx:id="columnDate" prefWidth="196.5" style="-fx-background-color: #f9e3ed;" text="Date Transaction" />
+                <TableColumn fx:id="columnMontant" prefWidth="196.5" style="-fx-background-color: #f9e3ed;" text="Montant" />
+                <TableColumn fx:id="columnType" prefWidth="196.5" style="-fx-background-color: #f9e3ed;" text="Type Transaction" />
+                <TableColumn fx:id="columnAssociate" prefWidth="196.5" style="-fx-background-color: #f9e3ed;" text="Associate Contract" />
+
+            </columns>
+        </TableView>
+        <Button layoutX="990.0" layoutY="156.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="114.0" style="-fx-background-color: #f9e3ed;" text="Update Transaction" />
+        <Button layoutX="849.0" layoutY="156.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="114.0" style="-fx-background-color: ; -fx-border-radius: 50;" text="Delete Transaction" />
+        <TextField layoutX="844.0" layoutY="101.0" prefHeight="26.0" prefWidth="261.0" promptText="Search Transaction" />
+        <TextField fx:id="tfAmount" layoutX="462.0" layoutY="686.0" prefHeight="23.0" prefWidth="120.0" promptText="Enter the value" />
+        <Button layoutX="965.0" layoutY="681.0" mnemonicParsing="false" onAction="#createTransaction" prefHeight="34.0" prefWidth="140.0" style="-fx-background-color: #f9e3ed; -fx-border-radius: 50;" text="Create Transaction" />
+      <ComboBox fx:id="cbType" layoutX="594.0" layoutY="685.0" prefHeight="23.0" prefWidth="140.0" promptText="Transaction Type" style="-fx-background-color: #f9e3ed;" />
+        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="31.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../R/logologo%201.png" />
+            </image></ImageView>
+      <DatePicker fx:id="dtDate" layoutX="319.0" layoutY="684.0" prefHeight="23.0" prefWidth="129.0" promptText="Date Time" />
+      <ComboBox fx:id="cbContrat" layoutX="745.0" layoutY="685.0" prefHeight="23.0" prefWidth="140.0" promptText="Contrat Associe" style="-fx-background-color: #f9e3ed;" />
+    </children>
+</AnchorPane>
